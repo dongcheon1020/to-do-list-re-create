@@ -14,19 +14,27 @@
           <h1 class="headline">To-do List</h1>
           <ul class="task-areas">
             <li class="task-area-item">
-              <button class="task-area-bt active">전체</button>
+              <button class="task-area-bt active" id="all">전체</button>
             </li>
             <li class="task-area-item">
-              <button class="task-area-bt">진행중</button>
+              <button class="task-area-bt" id="ongoing">진행중</button>
             </li>
             <li class="task-area-item">
-              <button class="task-area-bt">완료</button>
+              <button class="task-area-bt" id="done">완료</button>
+            </li>
+            <li class="task-area-item">
+              <button class="plus-list-item">
+                <img src="plus.circle 2.svg" alt="add-list" />
+              </button>
             </li>
           </ul>
           <section class="input-cotainer">
             <input class="task-input" type="text" placeholder="할 일 적기.." />
-            <label class="date-label" for="date-input">날짜 선택</label>
-            <input id="date-input" type="date" />
+            <div class="input-box">
+              <label class="date-label" for="date-input">날짜 선택</label>
+              <input id="date-input" type="date" />
+              <button class="add-bt">완료</button>
+            </div>
           </section>
         </section>
       </header>
@@ -39,7 +47,7 @@
                 <span class="item-text">ㅇㄴㄹㄴㄹㄴㅁㄹㄴㅁㄹㄴㅁㄹ</span>
                 <span class="item-date">2024년 10월 22일</span>
               </div>
-              <button class="delete">X</button>
+              <button  class="delete">X</button>
             </section> -->
           </section>
         </div>
